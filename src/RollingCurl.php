@@ -1,5 +1,8 @@
 <?php
-/*
+
+namespace HangryCurl;
+
+    /*
 Authored by Josh Fraser (www.joshfraser.com)
 Released under Apache License 2.0
 
@@ -45,7 +48,7 @@ class RollingCurlRequest {
 /**
  * RollingCurl custom exception
  */
-class RollingCurlException extends Exception {
+class RollingCurlException extends \Exception {
 }
 
 /**

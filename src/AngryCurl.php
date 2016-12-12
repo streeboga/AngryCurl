@@ -1,4 +1,27 @@
 <?php
+namespace  HangryCurl;
+
+use HangryCurl\RollingCurl;
+
+/**
+ * AngryCurl custom exception
+ */
+class AngryCurlException extends \Exception
+{
+    public function __construct($message = "", $code = 0 /*For PHP < 5.3 compatibility omitted: , Exception $previous = null*/)
+    {
+        AngryCurl::add_debug_msg($message);
+        parent::__construct($message, $code);
+    }
+}
+
+/**
+ * Class that represent a single curl request
+ */
+class AngryCurlRequest extends RollingCurlRequest
+{
+
+}
 
 /**
  * AngryCurl - Anonymized Rolling Curl class
@@ -493,24 +516,5 @@ class AngryCurl extends RollingCurl {
     } 
 }
 
-/**
- * AngryCurl custom exception
- */
-class AngryCurlException extends Exception
-{
-    public function __construct($message = "", $code = 0 /*For PHP < 5.3 compatibility omitted: , Exception $previous = null*/)
-    {
-        AngryCurl::add_debug_msg($message);
-        parent::__construct($message, $code);
-    }
-}
-
-/**
- * Class that represent a single curl request
- */
-class AngryCurlRequest extends RollingCurlRequest
-{
-    
-}
 
 ?>

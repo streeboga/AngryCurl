@@ -1,0 +1,15 @@
+{
+    "name": "konstantin/angry-curl",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Konstantin",
+            "email": "mazurov@directline.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HangryCurl\\": "src/"
+        }
+    }
+}
