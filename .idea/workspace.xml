@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f400b04-5b24-4b78-8091-c564200c280e" name="Default" comment="" />
+    <list default="true" id="1f400b04-5b24-4b78-8091-c564200c280e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AngryCurl.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RollingCurl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RollingCurl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RollingCurl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-4440">
@@ -29,6 +31,16 @@
               <folding>
                 <element signature="e#34#180#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +68,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/AngryCurl.php" />
         <option value="$PROJECT_DIR$/src/RollingCurl.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -162,12 +175,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481519961241</updated>
-      <workItem from="1481519963934" duration="1297000" />
+      <workItem from="1481519963934" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1297000" />
+    <option name="totallyTimeSpent" value="1539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="112" width="1779" height="968" extended-state="1" />
@@ -250,6 +263,14 @@
           <folding>
             <element signature="e#34#180#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

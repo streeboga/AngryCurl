@@ -1,6 +1,8 @@
 {
     "name": "konstantin/angry-curl",
     "type": "library",
+    "license": "MIT",
+    "version" : "0.0.1",
     "authors": [
         {
             "name": "Konstantin",
